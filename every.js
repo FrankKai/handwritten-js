@@ -1,0 +1,21 @@
+/**
+ * every(arr, callback)
+ * 数组中的所有项满足条件是返回true，有一项不满足即返回false
+ * @param arr
+ * @param callback(element[,index,[array]])
+ */
+
+const ArrayUtil = require("./array");
+
+ArrayUtil.every = (arr, callback) => {
+  let result = true;
+  for (let i = 0; i < arr.length; i++) {
+    if (!callback(arr[i], i, arr)) {
+      result = false;
+      break;
+    }
+  }
+  return result;
+};
+
+module.exports = ArrayUtil.every;
