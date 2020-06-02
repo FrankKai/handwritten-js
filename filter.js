@@ -10,7 +10,7 @@ const ArrayUtil = require("./array");
 ArrayUtil.filter = (arr, callback) => {
   const result = [];
   for (let i = 0; i < arr.length; i++) {
-    const validate = callback.call(this, arr[i], i, arr);
+    const validate = callback(arr[i], i, arr);
     if (validate) {
       result.push(arr[i]);
     }
