@@ -1,5 +1,5 @@
 /**
- * map(arr, callback)
+ * map(callback)
  * 遍历数组中的每一项，根据callback返回的结构，构造出一个新数组。
  * @param arr
  * @param callback(element[,index,[array]])

@@ -1,5 +1,5 @@
 /**
- * every(arr, callback)
+ * every(callback)
  * 数组中的所有项满足条件是返回true，有一项不满足即返回false
  * @param arr
  * @param callback(element[,index,[array]])

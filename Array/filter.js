@@ -1,5 +1,5 @@
 /**
- * filter(arr, callback)
+ * filter(callback)
  * 测试数组中的每一项，验证为true时保留元素，false时舍弃。
  * @param arr
  * @param callback(element[,index,[array]])

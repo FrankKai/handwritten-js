@@ -1,4 +1,5 @@
 const every = require("./every");
+const fill = require("./fill");
 const filter = require("./filter");
 const find = require("./find");
 const findIndex = require("./findIndex");
@@ -11,6 +12,7 @@ function CArray(array) {
 }
 
 CArray.prototype.every = every;
+CArray.prototype.fill = fill;
 CArray.prototype.filter = filter;
 CArray.prototype.find = find;
 CArray.prototype.findIndex = findIndex;

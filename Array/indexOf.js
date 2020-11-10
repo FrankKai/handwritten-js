@@ -1,6 +1,6 @@
 /**
- * indexOf(arr, searchElement, beginIndex)
- * 从beginIndex索引开始，查找当前数组searchElement的索引，若找到返回索引，否则返回-1
+ * indexOf(searchElement[,fromIndex])
+ * 从fromIndex索引开始，查找当前数组searchElement的索引，若找到返回索引，否则返回-1
  * @param arr
  * @param searchElement
  * @param fromIndex

@@ -3,6 +3,7 @@
 
 ## 手写Array
 - every()
+- fill()
 - filter()
 - find()
 - findIndex()

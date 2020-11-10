@@ -1,6 +1,6 @@
 /**
- * includes(arr, searchElement, beginIndex)
- * 从beginIndex索引开始，查找当前数组是否包含searchElement
+ * includes(searchElement[,fromIndex])
+ * 从fromIndex索引开始，查找当前数组是否包含searchElement
  * @param arr
  * @param searchElement
  * @param fromIndex
