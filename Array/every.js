@@ -5,9 +5,7 @@
  * @param callback(element[,index,[array]])
  */
 
-const ArrayUtil = require("./array");
-
-ArrayUtil.every = (arr, callback) => {
+function every(callback, arr = this.array) {
   let result = true;
   for (let i = 0; i < arr.length; i++) {
     if (!callback(arr[i], i, arr)) {
@@ -16,6 +14,6 @@ ArrayUtil.every = (arr, callback) => {
     }
   }
   return result;
-};
+}
 
-module.exports = ArrayUtil.every;
+module.exports = every;

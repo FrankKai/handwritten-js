@@ -5,14 +5,12 @@
  * @param callback(element[,index,[array]])
  */
 
-const ArrayUtil = require("./array");
-
-ArrayUtil.map = (arr, callback) => {
+function map(callback, arr = this.array) {
   const result = [];
   for (let i = 0; i < arr.length; i++) {
     result.push(callback(arr[i], i, arr));
   }
   return result;
-};
+}
 
-module.exports = ArrayUtil.map;
+module.exports = map;

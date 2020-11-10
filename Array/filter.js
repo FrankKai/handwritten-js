@@ -5,9 +5,7 @@
  * @param callback(element[,index,[array]])
  */
 
-const ArrayUtil = require("./array");
-
-ArrayUtil.filter = (arr, callback) => {
+function filter(callback, arr = this.array) {
   const result = [];
   for (let i = 0; i < arr.length; i++) {
     const validate = callback(arr[i], i, arr);
@@ -16,6 +14,6 @@ ArrayUtil.filter = (arr, callback) => {
     }
   }
   return result;
-};
+}
 
-module.exports = ArrayUtil.filter;
+module.exports = filter;

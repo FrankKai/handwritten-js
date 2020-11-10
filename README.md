@@ -2,5 +2,10 @@
 手写JavaScript系列：手写Array、Object、Set 、Map、Promise
 
 ## 手写Array
-- 手写filter()
-- 手写map()
+- every()
+- filter()
+- find()
+- findIndex()
+- includes()
+- indexOf()
+- map()
