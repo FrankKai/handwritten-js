@@ -3,7 +3,7 @@
 
 ## 手写Array
 - `concat(value[,value1[,value2[,...valueN]]])`
-- copyWithin
+- `copyWithin(target[,start[,end]])`
 - `every(callback(element[,index[,arr]]))`
 - `fill(value[,start[,end]])`
 - `filter(callback(element[,index[,arr]]))`

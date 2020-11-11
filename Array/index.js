@@ -1,4 +1,5 @@
 const concat = require("./concat");
+const copyWithin = require("./copyWithin");
 const every = require("./every");
 const fill = require("./fill");
 const filter = require("./filter");
@@ -12,6 +13,7 @@ function CArray(array) {
   this.array = array;
 }
 CArray.prototype.concat = concat;
+CArray.prototype.copyWithin = copyWithin;
 CArray.prototype.every = every;
 CArray.prototype.fill = fill;
 CArray.prototype.filter = filter;
