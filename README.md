@@ -9,10 +9,10 @@
 - `filter(callback(element[,index[,arr]]))`
 - `find(callback(element[,index,[,arr]]))`
 - `findIndex(callback(element[,index,[,arr]]))`
-- flat
-- flatMap
+- `flat([depth])`
+- `flatMap(callback(element[,index[,arr]]))`
 - `includes(value[,fromIndex])`
 - `indexOf(value[,fromIndex])`
 - `join([separator])`
 - `map(callback(element[,index[,arr]]))`
-- reverse
+- `reverse()`
