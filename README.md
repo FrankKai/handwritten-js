@@ -1,5 +1,5 @@
 # handwritten-js
-手写JavaScript系列：手写Array、Object、Set 、Map、Promise
+手写JavaScript系列：Array、Set、Map
 
 ## 手写Array
 - `concat(value[,value1[,value2[,...valueN]]])`
@@ -16,3 +16,16 @@
 - `join([separator])`
 - `map(callback(element[,index[,arr]]))`
 - `reverse()`
+
+## 手写Set
+- `add()`
+- `clear()`
+- `delete()`
+- `has()`
+
+## 手写Map
+- `clear()`
+- `delete(key)`
+- `get(key)`
+- `has(key)`
+- `set(key, value)`

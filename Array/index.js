@@ -12,7 +12,7 @@ const indexOf = require("./indexOf");
 const map = require("./map");
 const reverse = require("./reverse");
 
-function CArray(array) {
+function CArray(array = []) {
   this.array = array;
 }
 CArray.prototype.concat = concat;
